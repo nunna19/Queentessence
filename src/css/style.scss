@@ -1,0 +1,78 @@
+
+
+
+.grid-Header { grid-area: header ; }
+.grid-Menu   { grid-area: menu; }
+.grid-Main   { grid-area: main; }
+.grid-Right  { grid-area: right; }
+.grid-Footer { grid-area: footer; }
+.colum1 {grid-area: colum1;}
+.colum2 {grid-area: colum2;}
+.colum3 {grid-area: colum3;}
+
+.grid-container {
+display: grid;
+grid-template-areas: 
+"header header header header header"
+"menu main main main right "
+"menu colum1 colum2 colum3 right"
+" footer footer footer footer footer ";
+grid-gap: 10px;
+padding: 10px;
+
+}
+
+.grid-container > div{
+  background-color: rgba(196, 122, 122, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+.flip-container {
+	perspective: 2000px;
+}
+
+
+  .flip-container.front .flipper{
+		transform: rotateY(180deg);
+  }
+
+
+.flip-container, .tile-front, .tile-back {
+	width: 320px;
+  height: 300px;
+  margin:auto;
+}
+
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+
+.tile-front, .tile-back {
+	backface-visibility: hidden;
+	position: absolute;
+  background: rgb(136, 134, 135);
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+.tile-front {
+	z-index: 2;
+  transform: rotateY(0deg);
+  
+
+}
+
+.tile-back {
+  transform: rotateY(180deg);
+}
+
+
+
