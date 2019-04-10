@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "94435833360241e23baf",
-    "url": "/Queentessence/static/css/main.a6aaafb7.chunk.css"
+    "revision": "cde46eb07277685e55e4",
+    "url": "/Queentessence/static/css/main.fe641504.chunk.css"
   },
   {
-    "revision": "94435833360241e23baf",
-    "url": "/Queentessence/static/js/main.1fc1705f.chunk.js"
+    "revision": "cde46eb07277685e55e4",
+    "url": "/Queentessence/static/js/main.daa5cf00.chunk.js"
   },
   {
     "revision": "606103c84c8a50ec490a",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Queentessence/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "f5b6ec4009e189e9cd439479c5223c01",
+    "revision": "4551e10dce46c7586a5e9fec8d663e3c",
     "url": "/Queentessence/index.html"
   }
 ];
